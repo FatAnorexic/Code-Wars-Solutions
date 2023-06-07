@@ -16,6 +16,6 @@ def count_bits(n):
     return c
 
   #more straight forward approach is to use the count method, accumulating the 
-  #number of times '1' showns up in bin.n
+  #number of times '1' showns up in bin(n)
   def count_bits(n):
     return bin(n).count('1')
