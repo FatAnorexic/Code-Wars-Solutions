@@ -22,3 +22,9 @@ def DNA_strand(dna):
         elif dna[i]=='C':
             compliment+='G'
     return compliment
+
+#Another solution, though not as elementary is to create a dictionary and return 
+#The string using .join() method and list comprhension
+def DNA_strand(dna):
+    pairs={'A':'T', 'T':'A', 'G':'C', 'C':'G'}
+    return ''.join([pairs[x] for x in dna])
