@@ -68,6 +68,11 @@ def fib(n):
         return 1
     else:
         return fib(n-1)+fib(n-2)
+#A side note, the recursion limit in python is set to 1000, so fib(1000) will not work|
+#You can override this by sys.setrecursionlimit(n) but this can cause massive instability
+#for memory purposes, and should be avoided if possible. Instead, we ought to look for different
+#ways of calculating our recursive function. Which is exactly what we do in "Millionth Fib" kata in
+#3Kyu folder. 
 
 #What the best rated answer was, and similar to my solution, though much less busy work involved
 def productFib(prod):
