@@ -24,7 +24,7 @@ result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", 
 
 #This one can trip you up if you're not careful.
 def strip_comments(strng, markers):
-    list=strng.split('\n') #split the string into an array with each new line as the indexer
+    list=strng.split('\n')
     
     for x in markers:
        
