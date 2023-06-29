@@ -28,9 +28,10 @@ def strip_comments(strng, markers):
     
     for x in markers:
        
-        #some of the tests have leading spaces. this is why we are using right strip
-        #to delete any trailing spaces. had this function called for only leading
-        #spaces to be removed, we could have simply used lstrip() 
+        #some of the tests have leading spaces that need to remain. this is why we
+        #are using right stripto delete any trailing spaces. had this function 
+        #called for only leading spaces to be removed, we could have simply used 
+        #lstrip() 
         list=[y.split(x)[0].rstrip() for y in list]
     
     return '\n'.join(list)
