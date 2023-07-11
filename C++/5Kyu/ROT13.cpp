@@ -15,7 +15,8 @@ Test examples:
 */
 
 //Another encryption algorithm to solve: I found this one much more approachable.
-
+//Initially I was going to use maps to iterate over the string. However, this later
+//proved unecessary.
 #include <string>
 
 
