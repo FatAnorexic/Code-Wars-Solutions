@@ -6,7 +6,7 @@ in any other case.
 (In this case, all triangles must have surface greater than 0 to be accepted).
 */
 
-//right off the bat, this kata fails properly describe or link to the problem
+//right off the bat, this kata fails to properly describe or link to the problem
 //they wish solved. Possibly because the author thought it might give it away.
 //Either way, consider this an excersise in researching what a client wants
 //when they are unable to describe what they want. Google tells us this is the
