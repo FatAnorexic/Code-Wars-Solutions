@@ -34,3 +34,16 @@ The lowest index **N** where the side to the left of **N** is equal to the side 
 >**_Note:_** If you are given an array with multiple answers, return the lowest correct index.
 ---
 
+# Solution:
+
+## What is it asking?
+
+We're tasked with slicing the array into a **"Left"** and a **"Right"** side. To get a feel for how this might look we 
+can start by slicing at the mid point of the array. 
+
+```Python
+def find_even_index(arr):
+    mid=int(len(arr)/2)
+    left=arr[mid:]
+    right=arr[:mid]
+```
